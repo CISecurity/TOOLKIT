@@ -410,8 +410,6 @@ goto DCL2L1
 
 :L1
 cd %toolpath%
-dir
-pause > null
 echo.
 LGPO.exe /m "%Subfolder2%\Level_1\comp_registry.pol" /s "%Subfolder2%\Level_1\GptTmpl.inf" /ac "%Subfolder2%\Level_1\audit.csv" /u "%Subfolder2%\Level_1\user_registry.pol"
 echo.
